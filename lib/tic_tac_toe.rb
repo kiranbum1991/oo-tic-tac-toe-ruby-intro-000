@@ -4,6 +4,6 @@ class TicTacToe
   end
 
   def board
-    board = Array.new(9, " ")
+    @board = Array.new(9, " ")
   end
 end
