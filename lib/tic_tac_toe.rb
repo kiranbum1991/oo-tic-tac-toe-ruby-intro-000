@@ -39,6 +39,10 @@ class TicTacToe
     board[index] = player
   end
 
+   def position_taken?(board, index)
+    board[index]== "X" || board[index] == "O"
+  end
+
   def turn(board)
   puts "Please enter 1-9:"
   user_input = gets.strip
