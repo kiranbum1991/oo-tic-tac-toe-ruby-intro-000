@@ -48,7 +48,7 @@ class TicTacToe
     display_board(board)
   else
     turn(board)
+    end
   end
-end
 
 end
